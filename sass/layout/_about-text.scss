@@ -1,0 +1,27 @@
+.about-item-text {
+  display: flex;
+}
+.about-div {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+}
+.about-item:not(:last-child) {
+  margin-right: 30px;
+}
+.about-text {
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--index-main-about-text);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.about-pre-text {
+  width: 270px;
+  line-height: 1.71;
+  color: var(--index-main-pre-text);
+}
