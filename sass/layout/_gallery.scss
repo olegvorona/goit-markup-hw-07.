@@ -2,24 +2,24 @@
     padding-top: 0;
     padding-bottom: 94px;
 }
-.gallery-text {
+.gallery__text {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     color: var(--index-gallery-text);
 }
-.gallery-title {
+.gallery__title {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
-.gallery-after-title {
+.gallery__after--title {
     position: relative;
     &:not(:last-child) {
     margin-right: 30px;}
 }
-.gallery-text-after {
+.gallery__text--after {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

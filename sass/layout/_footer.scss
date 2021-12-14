@@ -4,36 +4,36 @@
     padding-bottom: 60px;
     display: flex;
 }
-.footer-div {
+.footer__div {
     display: flex;
     align-items: flex-start;
     align-items: baseline;
 }
-.btm-first {
+.btm__first {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: var(--first-btm-color);
 }
-.footer-title {
+.footer__title {
     margin-top: 20px;
 }
-.footer-link {
+.footer__link {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     color: var(--second-footer-btm);
 }
-.footer-text {
+.footer__text {
     line-height: 1.71;
     color: var(--footer-text-color);
     &:not(:last-child) {
         margin-bottom: 9px;
     }
 }
-.footer-item-link {
+.footer__item--link {
     line-height: 1.71;
     color: var(--footer-contact-color);
     font-style: normal;
@@ -49,7 +49,7 @@
 .contacts {
     margin-right: 70px;
 }
-.footer-network {
+.footer__network {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -57,12 +57,12 @@
     text-transform: uppercase;
     color: var(--footer-text-color);
 }
-.footer-network-list {
+.footer__network--list {
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-.footer-network-title {
+.footer__network--title {
     width: 44px;
     height: 44px;
     display: flex;
@@ -79,7 +79,7 @@
         background-color: var(--accent-color);
     }
 }
-.footer-network-link {
+.footer__network--link {
     width: 100%;
     height: 100%;
     display: flex;
@@ -97,10 +97,10 @@
         color: #fff;
     }
 }
-.footer-icon {
+.footer__icon {
     fill: currentColor;
 }
-.footer-reklam {
+.footer__reklam {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -110,13 +110,13 @@
     margin-left: 93px;
     margin-bottom: 20px;
 }
-.footer-pre-reklam {
+.footer__pre--reklam {
     margin-left: 93px;
     display: flex;
     justify-content: center;
     position: relative;
 }
-.footer-form {
+.footer__form {
     width: 358px;
     height: 50px;
     background-color: transparent;
@@ -137,7 +137,7 @@
         color: rgba(255, 255, 255, 0.6);
     }
 }
-.footer-btm {
+.footer__btm {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -159,7 +159,7 @@
     border: none;
     border-radius: 4px;
 }
-.footer-icon-reklam {
+.footer__icon--reklam {
     position: absolute;
     right: 28px;
     margin-left: 10px;

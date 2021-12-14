@@ -1,15 +1,15 @@
-.header-list {
+.header__list {
     display: flex;
 }
-.header-container {
-    display: flex;
-    align-items: center;
-}
-.header-nav {
+.header__container {
     display: flex;
     align-items: center;
 }
-.header-item {
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.header__item {
     position: relative;
     &:not(:last-child) {
         margin-right: 50px;
@@ -30,7 +30,7 @@
     border: rgba(236, 236, 236, 1);
     border-bottom: 1px solid #ececec;
 }
-.btm-first {
+.btm__first {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -40,7 +40,7 @@
     padding-top: 24px;
     padding-bottom: 25px;
 }
-.header-btm {
+.header__btm {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -51,7 +51,7 @@
     padding-top: 24px;
     padding-bottom: 25px;
 }
-.header-item-link {
+.header__item--link {
     font-weight: 500;
     line-height: 1.15;
     letter-spacing: 0.02em;
@@ -67,16 +67,16 @@
         color: var(--accent-color);
     }
 }
-.header-contact {
+.header__contact {
     margin-left: auto;
     color: var(--contacts-text-color);
     justify-content: center;
     align-items: center;
 }
-.header-item-list {
+.header__item--list {
     display: flex;
 }
-.header-contact-list {
+.header__contact--list {
     font-weight: 500;
     line-height: 1.15;
     letter-spacing: 0.02em;
@@ -95,7 +95,7 @@
         color: var(--accent-color);
     }
 }
-.header-contact-tel {
+.header__contact--tel {
     font-weight: 500;
     line-height: 1.15;
     letter-spacing: 0.02em;
@@ -113,7 +113,7 @@
         color: var(--accent-color);
     }
 }
-.header-link {
+.header__link {
     color: rgba(117, 117, 117, 1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -124,12 +124,12 @@
         color: var(--accent-color);
     }
 }
-.header-contact-list {
+.header__contact--list {
     fill: currentColor;
 }
-.header-contact-tel {
+.header__contact--tel {
     fill: currentColor;
 }
-.header-icon {
+.header__icon {
     margin-right: 10px;
 }

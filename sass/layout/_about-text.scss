@@ -1,7 +1,7 @@
-.about-item-text {
+.about__item--text {
   display: flex;
 }
-.about-div {
+.about__div {
   width: 270px;
   height: 120px;
   display: flex;
@@ -9,10 +9,10 @@
   align-items: center;
   background-color: #f5f4fa;
 }
-.about-item:not(:last-child) {
+.about__item:not(:last-child) {
   margin-right: 30px;
 }
-.about-text {
+.about__text {
   font-weight: 700;
   line-height: 1.15;
   text-transform: uppercase;
@@ -20,7 +20,7 @@
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.about-pre-text {
+.about__pre--text {
   width: 270px;
   line-height: 1.71;
   color: var(--index-main-pre-text);
